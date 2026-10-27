@@ -1,0 +1,51 @@
+@media (min-width: 600px) {
+    body {
+        padding: 32px 20px;
+    }
+
+    section[aria-label="Text transfer"] {
+        padding: 20px;
+    }
+
+    textarea {
+        min-height: 420px;
+    }
+
+    .actions {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .actions button {
+        min-width: 150px;
+    }
+
+    .community-details {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+        margin-top: 16px;
+    }
+
+    #Donate_Me {
+        margin-top: 24px;
+        padding: 24px 20px;
+    }
+
+    #Donate_Me img {
+        max-width: 220px;
+    }
+
+    #Donation_Progress,
+    #Top_Donors {
+        padding: 18px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+    }
+}

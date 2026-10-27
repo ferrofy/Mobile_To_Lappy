@@ -1,0 +1,31 @@
+html[data-theme="dark"] {
+    color-scheme: dark;
+    --page-background: #121820;
+    --card-background: #1b2530;
+    --subtle-background: #222e3a;
+    --input-background: #151e27;
+    --text-color: #edf3f8;
+    --muted-text: #b0bfce;
+    --card-border: #344353;
+    --input-border: #455668;
+    --card-shadow: rgba(0, 0, 0, 0.2);
+    --focus-color: #80bfff;
+    --upload-background: #236fae;
+    --write-background: #16836e;
+    --goal-background: #20372d;
+    --goal-border: #355a46;
+    --goal-text: #b9e8c8;
+    --note-background: #202f3d;
+    --note-border: #3b5267;
+    --note-text: #d0e0ef;
+    --progress-track: #344251;
+    --progress-fill: #62c596;
+    --theme-toggle-background: #273544;
+    --theme-toggle-border: #455668;
+    --theme-toggle-text: #edf3f8;
+}
+
+html[data-theme="dark"] #Upload,
+html[data-theme="dark"] #Write {
+    color: #fff;
+}

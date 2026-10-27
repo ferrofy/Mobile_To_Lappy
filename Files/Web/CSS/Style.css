@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 18px 14px;
+    color: var(--text-color);
+    background: var(--page-background);
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.25;
+}
+
+section[aria-label="Text transfer"],
+#Donate_Me,
+#Donation_Progress,
+#Top_Donors {
+    border: 1px solid var(--card-border);
+    border-radius: 18px;
+    background: var(--card-background);
+    box-shadow: 0 6px 20px var(--card-shadow);
+}
+
+section[aria-label="Text transfer"] {
+    padding: 14px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    min-height: 48vh;
+    padding: 10px;
+    border: 1px solid var(--input-border);
+    border-radius: 12px;
+    color: inherit;
+    background: var(--input-background);
+    font: 16px/1.5 Arial, sans-serif;
+    resize: vertical;
+}
+
+textarea:focus-visible,
+button:focus-visible {
+    outline: 3px solid var(--focus-color);
+    outline-offset: 3px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+button {
+    min-height: 50px;
+    padding: 12px 16px;
+    border: 1px solid transparent;
+    border-radius: 11px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    touch-action: manipulation;
+    transition: filter 150ms ease, transform 150ms ease;
+}
+
+button:hover:not(:disabled) {
+    filter: brightness(0.94);
+    transform: translateY(-1px);
+}
+
+button:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+button:disabled {
+    cursor: wait;
+    opacity: 0.65;
+}
+
+#Theme_Toggle {
+    min-width: 180px;
+    color: var(--theme-toggle-text);
+    background: var(--theme-toggle-background);
+    border-color: var(--theme-toggle-border);
+}
+
+.theme-control {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 8px;
+}
+
+#Status {
+    min-height: 1.5em;
+    margin-top: 12px;
+    color: var(--muted-text);
+}
+
+#Donate_Me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    margin-top: 18px;
+    padding: 22px 14px;
+    text-align: center;
+}
+
+#Donate_Me h1 {
+    font-size: clamp(1.35rem, 5vw, 1.75rem);
+}
+
+#Donate_Me h3 {
+    font-size: 1rem;
+}
+
+#Donate_Me img {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    padding: 7px;
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    background: var(--card-background);
+}
+
+.donation-goal,
+.payment-note {
+    width: 100%;
+    max-width: 480px;
+    padding: 13px 15px;
+    border-radius: 12px;
+}
+
+.payment-note {
+    font-size: 0.9rem;
+}
+
+.payment-note strong {
+    display: inline-block;
+    margin-top: 4px;
+    color: var(--text-color);
+    overflow-wrap: anywhere;
+}
+
+.community-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+#Donation_Progress,
+#Top_Donors {
+    min-width: 0;
+    padding: 16px;
+}
+
+#Donation_Progress h2,
+#Top_Donors h2 {
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+#Amount {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+#Top_Donors span {
+    display: block;
+    color: var(--muted-text);
+    font-size: 0.85rem;
+    font-weight: normal;
+}
+
+#Top_Donors ol {
+    padding: 10px 10px 10px 32px;
+    border-radius: 9px;
+    background: var(--subtle-background);
+}
+
+#Progress {
+    width: 100%;
+    height: 14px;
+    overflow: hidden;
+    border-radius: 999px;
+    background: var(--progress-track);
+}
+
+#Bar {
+    width: 0%;
+    height: 100%;
+    border-radius: inherit;
+    background: var(--progress-fill);
+    transition: width 250ms ease;
+}
+
+#Percentage {
+    margin-top: 8px;
+    color: var(--progress-fill);
+    font-size: 0.9rem;
+    font-weight: 600;
+}

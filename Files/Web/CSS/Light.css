@@ -1,0 +1,48 @@
+:root {
+    color-scheme: light;
+    --page-background: #fff;
+    --card-background: #fff;
+    --subtle-background: #f7f9fc;
+    --input-background: #fbfcfe;
+    --text-color: #202a35;
+    --muted-text: #526273;
+    --card-border: #e3e9ee;
+    --input-border: #d5dee6;
+    --card-shadow: rgba(32, 54, 72, 0.06);
+    --focus-color: #2878bd;
+    --upload-background: #1769aa;
+    --write-background: #157f68;
+    --goal-background: #f3faf5;
+    --goal-border: #d8e9df;
+    --goal-text: #285d3b;
+    --note-background: #f3f8fd;
+    --note-border: #d9e7f3;
+    --note-text: #40566c;
+    --progress-track: #e7edf2;
+    --progress-fill: #25845f;
+    --theme-toggle-background: #f1f5f8;
+    --theme-toggle-border: #d5dee6;
+    --theme-toggle-text: #34495e;
+}
+
+#Upload {
+    color: #fff;
+    background: var(--upload-background);
+}
+
+#Write {
+    color: #fff;
+    background: var(--write-background);
+}
+
+.donation-goal {
+    border: 1px solid var(--goal-border);
+    background: var(--goal-background);
+    color: var(--goal-text);
+}
+
+.payment-note {
+    border: 1px solid var(--note-border);
+    background: var(--note-background);
+    color: var(--note-text);
+}
