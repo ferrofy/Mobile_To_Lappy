@@ -1,14 +1,5 @@
 # Mobile to Lappy
 
-## Project Documents
-
-- [Changelog](CHANGELOG.md)
-- [Contributing](CONTRIBUTING.md)
-- [Code of Conduct](CODE_OF_CONDUCT.md)
-- [Roadmap](ROADMAP.md)
-- [Security Policy](SECURITY.md)
-- [MIT License](LICENCE.md)
-
 Mobile To Lappy Is Softare Made By `Vikrant Pathania` Student At Chitkara University In 2nd Year This Software Is To Send Mobile Text To Computer And Auto Write It Anywhere With The Help Of ***PuAutoGUI*** Module Over Local Networks.
 
 ***Note***: Don't Use This Software For Some UnEthical Uses This May Work But Don't Try.
