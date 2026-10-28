@@ -1,8 +1,8 @@
-# Mobile to Lappy
+# Mobile To Lappy
 
-Mobile To Lappy Is Softare Made By `Vikrant Pathania` Student At Chitkara University In 2nd Year This Software Is To Send Mobile Text To Computer And Auto Write It Anywhere With The Help Of ***PuAutoGUI*** Module Over Local Networks.
+Mobile To Lappy ( M2L ) Is Softare Made By `Vikrant Pathania` Student At Chitkara University In 2nd Year This Software Is To Send Mobile Text To Computer And Auto Write It Anywhere With The Help Of ***PuAutoGUI*** Module Over Local Networks.
 
-***Note***: Don't Use This Software For Some UnEthical Uses This May Work But Don't Try.
+***Note***: Don't Use This Software For Some UnEthical Uses This ( May / May Not ) Work But Don't Try.
 
 You Are Responsible For Any Kinds Of UnEthical Works With This Module `Vikrant Pathania` / `FerroFy` Is Not Responsible That Activity.
 
