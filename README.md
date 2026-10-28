@@ -6,7 +6,7 @@ Mobile To Lappy Is Softare Made By `Vikrant Pathania` Student At Chitkara Univer
 
 You Are Responsible For Any Kinds Of UnEthical Works With This Module `Vikrant Pathania` / `FerroFy` Is Not Responsible That Activity.
 
-If You Agree With Avove Statement Then Only Run The Software.
+If You Agree With Above Statement Then Only Run The Software.
 
 Thank You
 
