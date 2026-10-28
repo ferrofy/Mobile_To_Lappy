@@ -53,7 +53,7 @@ When donating, add this note to your payment:
 `<Your Name>: Mobile To Lappy Donation`
 
 ### Top Donators ( Refreshes Every Week )
-Progress: `₹0 / ₹1,000`
+Progress: `₹0 / ₹2,000`
 
 ### Donate In Crypto
 
